@@ -24,7 +24,7 @@ Add a background with an outdoor landscape. 'blue sky' is a good choice.
 
 Click on the **Paint new sprite** button and name your sprite 'Pipes'.
 
-[[[generic-scratch-rename-sprite]]]
+[[[generic-scratch-draw-sprite]]]
 
 --- /task ---
 
