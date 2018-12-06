@@ -1,11 +1,22 @@
-title: flappy-parrot-scratch2
+title: Flappy parrot
 hero_image: images/banner.png
-description: flappy-parrot-scratch2 description
-version: 4
+description: Create a game in which you guide a parrot past moving obstacles
 listed: false
-copyedit: false
-last_tested: "2018-12-06"
-steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+copyedit: true
+version: 4.1
+last_tested: 2018-10-90
+steps: 
+- title: Introduction
+- title: Add the pipes
+- title: "Challenge: make better pipes"
+  challenge: true
+- title: Make the pipes move
+- title: Make Flappy fall
+- title: Make Flappy fly
+- title: Detect collisions
+- title: Add a score
+- title: 'Challenge: adjust the difficulty'
+  challenge: true
+- title: 'Challenge: add a high score'
+  challenge: true
+- title: What next?
