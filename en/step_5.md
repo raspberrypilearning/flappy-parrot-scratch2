@@ -26,10 +26,7 @@ Add code to `set Flappy's size to 25%`{:class="blocklooks"} `when the green flag
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
-when green flag clicked
-set size to (25) %
-```
+![blocks_1545217744_0318813](images/blocks_1545217744_0318813.png)
 
 **Tip:** you could also use the **Shrink** tool to make your sprite smaller.
 
@@ -46,11 +43,7 @@ Add code to make Flappy `go to the x and y`{:class="blockmotion"} starting posit
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
-when green flag clicked
-set size to (25) %
-+ go to x: (-50) y: (0)
-```
+![blocks_1545217745_1424925](images/blocks_1545217745_1424925.png)
 
 [[[generic-scratch-set-coordinates]]]
 
@@ -62,14 +55,7 @@ Now make Flappy keep falling down the Stage by `forever`{:class="blockcontrol"} 
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
-when green flag clicked
-set size to (25) %
-go to x: (-50) y: (0)
-+ forever 
-    change y by (-3)
-end
-```
+![blocks_1545217746_2485366](images/blocks_1545217746_2485366.png)
 
 --- /task ---
 

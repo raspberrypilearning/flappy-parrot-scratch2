@@ -20,12 +20,7 @@ Add this code to your `Flappy` sprite:
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
-when [space v] key pressed
-repeat (10) 
-  change y by (6)
-end
-```
+![blocks_1545217747_5510843](images/blocks_1545217747_5510843.png)
 
 --- /task ---
 
@@ -58,21 +53,7 @@ You need to use these blocks:
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
-repeat (5) 
-  change y by (6)
-end
-
-repeat (5) 
-  change y by (6)
-end
-
-switch costume to [wings up v]
-
-switch costume to [wings down v]
-
-when [space v] key pressed
-```
+![blocks_1545217748_6573598](images/blocks_1545217748_6573598.png)
 
 --- /hint ---
 
@@ -82,17 +63,7 @@ Your code should look like this:
 
 ![parrot sprite](images/flappy-sprite.png)
 
-```blocks
-when [space v] key pressed
-switch costume to [wings down v]
-repeat (5) 
-  change y by (6)
-end
-switch costume to [wings up v]
-repeat (5) 
-  change y by (6)
-end
-```
+![blocks_1545217749_776418](images/blocks_1545217749_776418.png)
 
 --- /hint ---
 

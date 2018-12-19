@@ -10,15 +10,7 @@ First make the pipes appear by adding code to the Pipes sprite so that, `when th
 
 ![pipes sprite](images/pipes-sprite.png)
 
-```blocks
-when green flag clicked
-set size to (200) %
-hide
-forever 
-  create clone of [myself v]
-  wait (2) secs
-end
-```
+![blocks_1545217740_631449](images/blocks_1545217740_631449.png)
 
 **Tip:** clones are just copies of a sprite, and they are really useful for creating games. 
 
@@ -30,13 +22,7 @@ Next make the pipes move by adding code so that, `when a clone starts`{:class="b
 
 ![pipes sprite](images/pipes-sprite.png)
 
-```blocks
-when I start as a clone
-show
-go to x: (240) y: (0)
-glide (4) secs to x: (-240) y: (0)
-delete this clone
-```
+![blocks_1545217741_766261](images/blocks_1545217741_766261.png)
 
 **Tip:** you can stop the pipes scrolling by clicking the red **stop** button next to the green flag.
 
@@ -54,13 +40,7 @@ Modify your sprite's code so that each sprite clone `picks a random number from 
 
 ![pipes sprite](images/pipes-sprite.png)
 
-```blocks
-when I start as a clone
-show
-+ go to x: (240) y: (pick random (-80) to (80))
-+ glide (4) secs to x: (-240) y: (y position)
-delete this clone
-```
+![blocks_1545217742_9212122](images/blocks_1545217742_9212122.png)
 
 --- /task ---
 
