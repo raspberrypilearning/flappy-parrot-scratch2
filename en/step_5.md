@@ -67,7 +67,7 @@ when green flag clicked
 set size to (25) %
 go to x: (-50) y: (0)
 + forever 
-  + change y by (-3)
+    change y by (-3)
 end
 ```
 
