@@ -18,7 +18,16 @@ First, `set score to 0`{:class="blockdata"} when the game begins:
 
 ![pipes sprite](images/pipes-sprite.png)
 
-![blocks_1545217754_4094372](images/blocks_1545217754_4094372.png)
+```blocks
+when green flag clicked
++ set [score v] to [0]
+set size to (200) %
+hide
+forever 
+  create clone of [myself v]
+  wait (2) secs
+end
+```
 
 --- /task ---
 
@@ -28,7 +37,10 @@ Then add the following code to the `Pipes` sprite:
 
 ![pipes sprite](images/pipes-sprite.png)
 
-![blocks_1545217755_526561](images/blocks_1545217755_526561.png)
+```blocks
+when I start as a clone
+wait until <>
+```
 
 --- /task ---
 
@@ -46,7 +58,10 @@ You need to `wait until`{:class="blockcontrol"} `Flappy's x position`{:class="bl
 
 ![pipes sprite](images/pipes-sprite.png)
 
-![blocks_1545217756_632011](images/blocks_1545217756_632011.png)
+```blocks
+when I start as a clone
++ wait until <>
+```
 
 Then `change score by 1`{:class="blockdata"} and `play a sound`{:class="blocksound"}. 
 
@@ -58,7 +73,20 @@ Use these blocks in the correct order:
 
 ![pipes sprite](images/pipes-sprite.png)
 
-![blocks_1545217757_7045462](images/blocks_1545217757_7045462.png)
+```blocks
+when I start as a clone
+wait until <>
+
+play sound [pop v]
+
+change [score v] by (1)
+
+[x position v] of [Flappy v]
+
+x position
+
+() > ()
+```
 
 --- /hint ---
 
@@ -68,7 +96,12 @@ Your code should look like this:
 
 ![pipes sprite](images/pipes-sprite.png)
 
-![blocks_1545217758_8350632](images/blocks_1545217758_8350632.png)
+```blocks
+when I start as a clone
+wait until <([x position v] of [Flappy v]) > (x position)>
+change [score v] by (1)
+play sound [pop v]
+```
 
 --- /hint ---
 
